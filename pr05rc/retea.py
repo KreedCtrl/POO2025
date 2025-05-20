@@ -1,7 +1,7 @@
 import socket
 import threading
 
-HOST = '192.168.195.81' 
+HOST = '192.168.56.1' 
 PORT = 12345
 
 class ChatServer:

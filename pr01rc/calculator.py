@@ -2,7 +2,7 @@ import tkinter as tk
 import math
 #radical din nr negativ
 #memoria la calc
-#inca un log 
+#inca un logaritm 
 #problema cu punct dupa o cifra
 class Calculator:
     def __init__(self):
@@ -152,7 +152,7 @@ class CalculatorGui:
                 show_result(result, self)
             except Exception as e:
                 show_error(self)
-        elif (char == "."):############ de reparat pentru ex 7.03+17.5
+        elif (char == "."):
             entry_text = self.entry.get()
             if entry_text == "" or entry_text[-1] in "-+*/":#verifica daca expresia este goala sau daca ultimul caracter este un operator
                 self.entry.insert(tk.END, "0.")#daca este goala adauga 0 inainte de .

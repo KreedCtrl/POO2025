@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import scrolledtext, filedialog, messagebox
 import os
 
-HOST = '192.168.195.81'
+HOST = '192.168.56.1'
 PORT = 12345
 
 class ChatClient:
